@@ -8,4 +8,4 @@ A very limited RDMS query builder library.
 This library covers a very limited subset of SQL. Most applications and
 libraries in need of a query builder should instead use [Cake](https://github.com/inoas/gleam-cake).
 
-Documentation can be found at <https://hexdocs.pm/badminton>.
+Documentation can be found at <https://hexdocs.pm/queryb>.
