@@ -57,6 +57,10 @@ pub type Direction {
   Descending
 }
 
+pub fn to_postgresql(query: Query) -> String {
+  to_sql(query, query_parameter_prefix: "$", escaped_double_quote: "\"")
+}
+
 pub fn to_sql(
   query: Query,
   query_parameter_prefix param: String,

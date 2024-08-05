@@ -1,25 +1,11 @@
-# badminton
+# queryb
 
-[![Package Version](https://img.shields.io/hexpm/v/badminton)](https://hex.pm/packages/badminton)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/badminton/)
+A very limited RDMS query builder library.
 
-```sh
-gleam add badminton
-```
-```gleam
-import badminton
+[![Package Version](https://img.shields.io/hexpm/v/queryb)](https://hex.pm/packages/queryb)
+[![Hex Docs](https://img.shields.io/queryb/hex-docs-ffaff3)](https://hexdocs.pm/queryb/)
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
+This library covers a very limited subset of SQL. Most applications and
+libraries in need of a query builder should instead use [Cake](https://github.com/inoas/gleam-cake).
 
-Further documentation can be found at <https://hexdocs.pm/badminton>.
-
-## Development
-
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-gleam shell # Run an Erlang shell
-```
+Documentation can be found at <https://hexdocs.pm/badminton>.
